@@ -1,0 +1,9 @@
+{
+	"name": "wl-training-ADF",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dc1f463b-fda5-43fc-859e-deba19fb5320",
+		"tenantId": "55eb84eb-89cc-41cc-9523-6b548158f9cd"
+	}
+}
