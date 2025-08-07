@@ -131,7 +131,6 @@
 				},
 				"DataMapperMappings": [
 					{
-						"targetEntityName": "azuretraining",
 						"sourceEntityName": "dbo.training_users",
 						"sourceConnectionReference": {
 							"connectionName": "AzureSqlDatabase",
@@ -152,6 +151,7 @@
 			},
 			"mode": "Microbatch"
 		},
+		"status": "Stopped",
 		"allowVNetOverride": true
 	}
 }
