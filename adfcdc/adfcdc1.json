@@ -131,6 +131,7 @@
 				},
 				"DataMapperMappings": [
 					{
+						"targetEntityName": "azuretraining",
 						"sourceEntityName": "dbo.training_users",
 						"sourceConnectionReference": {
 							"connectionName": "AzureSqlDatabase",
