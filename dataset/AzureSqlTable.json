@@ -1,0 +1,42 @@
+{
+	"name": "AzureSqlTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "first_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "email",
+				"type": "nvarchar"
+			},
+			{
+				"name": "course_enrolled",
+				"type": "nvarchar"
+			},
+			{
+				"name": "enrollment_date",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "training_users"
+		}
+	}
+}
