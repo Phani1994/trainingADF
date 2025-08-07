@@ -7,11 +7,11 @@
 		"typeProperties": {
 			"server": "wl-training.database.windows.net",
 			"database": "trainingdb",
-			"encrypt": "mandatory",
+			"encrypt": "optional",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
 			"userName": "wl-training-admin",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDgyNTZDNTgzLTcxMEMtNDVBOS1BRjk1LTE1OEQ2NEY1MkY3RF9jYWNjNmE4Mi03ZTU2LTQ3YjQtYTljMy1iMGIzZGU1YjA1ZjgiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDgyNTZDNTgzLTcxMEMtNDVBOS1BRjk1LTE1OEQ2NEY1MkY3RF80NDU2NmU1ZS0wNmVhLTRmMWMtYjM1NC1jZWVhZjgxNDlhYjkiDQp9"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
